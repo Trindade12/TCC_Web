@@ -16,13 +16,15 @@ const Usuario = () => {
                     />
                <section className="m-2 p-2 shadow-lg">
                     <div className="d-flex justify-content-around">
-                        <Link to={'/usuarionovo'} 
-                            className="btn btn-lg btn-primary">
-                            Novo Usuário
+                        <Link to={'/usuarionovo'}
+                            style={{backgroundColor: 'var(--preto)', color: 'var(--fontpri)'}} 
+                            className="btn btn-lg">
+                            Novo Técnico
                         </Link>
                         <Link to={'/usuarioslista'} 
-                            className="btn btn-lg btn-warning">
-                            Lista de Usuários
+                            style={{backgroundColor: 'var(--preto)', color: 'var(--fontpri)'}}
+                            className="btn btn-lg">
+                            Lista de Técnicos
                         </Link>
                     </div>
                 </section>

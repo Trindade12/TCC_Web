@@ -1,3 +1,22 @@
+:root{
+    --main-font-color: #6700E5;
+    --main--bg-color: #07031C;
+    --light:      #feefd1; /*Não é a primaria*/
+    --dark:       #0c1113; /*Essa tb não*/
+    --preto:      #0A0A0A; /*Essa tb não*/
+    --fonte:      #D6D6D6; /*Essa tb não*/
+    --fonte2:     #262729; /*Essa tb não*/
+    --fontepri:   #aaadab;
+    --bgpri:      #000003;
+    --reposicao:  #d2d7d9;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bgpri);
+    color: var(--fontepri);
+  }
+
 footer{
     background-color: antiquewhite;
     padding: 10px;
